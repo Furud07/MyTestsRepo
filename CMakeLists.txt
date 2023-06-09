@@ -6,7 +6,7 @@ project (Tests
 	DESCRIPTION "A Hello World Project")
 
 # This project will output an executable file
-add_executable(${PROJECT_NAME} Tests.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
 # Create a simple configuration header
 configure_file(config.h.in config.h)
