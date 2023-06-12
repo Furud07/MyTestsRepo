@@ -18,7 +18,7 @@ public:
 
 	virtual ~Module_1();
 
-	void function1(int a);
+	void function1(int a) override;
 
 private:
 	Module_1();
